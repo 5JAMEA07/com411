@@ -1,4 +1,4 @@
-cable = int(input("How many live cables must I avoid?\n"))
+cable = int(input("How many live cables must I remove?\n"))
 
 removed_cable = 0
 while removed_cable != cable:
