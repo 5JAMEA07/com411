@@ -1,7 +1,8 @@
 cover_type = input("What type of cover does the book have?\n")
+
 if cover_type == "soft":
-    cover_bound = input("Is the book perfect-bound?\n")
-    if cover_bound == "yes":
+    bound = input("Is the book perfect-bound?\n")
+    if bound == "yes":
         print("Soft cover, perfect bound books are very popular!")
     else:
         print("Soft covers with coils or stitches are great for short books")
