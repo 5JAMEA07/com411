@@ -4,7 +4,7 @@ counter = 1
 final = 0
 
 while counter <= 100:
-    final += sum
-    sum += 1
+    final += counter
+    counter += 1
 
 print(f"...Done! The answer is {final}")
